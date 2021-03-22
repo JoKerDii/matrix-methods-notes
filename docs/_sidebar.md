@@ -3,4 +3,6 @@
   - [Lecture 1](lecture/part1.md)
   - [Lecture 2](lecture/part2.md)
   - [Lecture 3](lecture/part3.md)
+  - [Lecture 4](lecture/part4.md)
+  - [Lecture 5](lecture/part5.md)
 - **Project Documentation**
