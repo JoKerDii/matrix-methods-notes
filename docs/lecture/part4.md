@@ -53,7 +53,7 @@ $$
 det(A - \lambda I) = 0
 $$
 
-> #### Exercise 12
+> #### Exercise 1
 >
 > If $A$ is shifted to $A+sI$, what happens to the $x$'s and $\lambda$'s?
 >
@@ -73,7 +73,7 @@ A(My) & = \lambda (My)
 $$
 We use this idea to compute eigenvalues of large matrices $A$ - **the eigenvalues of any triangular matrix $M^{-1}AM$ show up on the main diagonal. **For example the eigenvalues of $\begin{bmatrix} a&b\\0&d \end{bmatrix}$are $\lambda_1 = a, \lambda_2 = d$
 
-> #### Exercise 13
+> #### Exercise 2
 >
 > Show $AB$ has same non-zero eigenvalues as $BA$.
 >
@@ -103,7 +103,7 @@ A^2 = X\Lambda^2 X^{-1}\\
 A^k = X\Lambda^k X^{-1}
 $$
 
-> #### Exercise 14
+> #### Exercise 3
 >
 > $A = \begin{bmatrix}0.8 & 0.3 \\ 0.2 & 0.7 \end{bmatrix}$ is a **Markov matrix**, with positive columns adding to 1. Compute $A^k v$.
 >

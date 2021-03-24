@@ -55,7 +55,7 @@ The key idea is $A = CR$,  which is the first idea of **factorization** of a mat
 * The shape is $(m \times n) = (m \times r)(r \times n)$.
 * The columns of $C$ should be **independent**.  **The number of independent columns equals the number of independent rows**. Thus **row rank equals column rank**.
 * The $R$ matrix is $R = rref(A)$ which is named "*row-reduced echelon form of $A$ (without zero rows)*".
-* The big factorization for data science is the "**SVD**" of $A$ when the first factor $C$ has $r$ **orthogonal** columns and the second factor $R$ has $r$ **orthogonal** rows. When $C$ takes columns directly from $A$, and $R$ takes rows directly from $A$, those matrices preserve properties that are lost in the more famous $QR$ and $SVD$ factorizations. Where $A = QR$ and $A = U\sum V^T$ involve orthogonalizing the vectors, $C$ and $R$ keep the original data:
+* The big factorization for data science is the "**SVD**" of $A$ when the first factor $C$ has $r$ **orthogonal** columns and the second factor $R$ has $r$ **orthogonal** rows. When $C$ takes columns directly from $A$, and $R$ takes rows directly from $A$, those matrices preserve properties that are lost in the more famous $QR$ and $SVD$ factorizations. Where $A = QR$ and $A = U\Sigma V^T$ involve orthogonalizing the vectors, $C$ and $R$ keep the original data:
   * If A is **nonnegative**, so are $C$ and $R$.
   * If $A$ is **sparse**, so are $C$ and $R$.
 

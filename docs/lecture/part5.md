@@ -26,7 +26,7 @@
 4. All leading determinants $> 0 $.
 5. All pivots $> 0 $ in elimination
 
-> #### Example 15
+> #### Example 12
 >
 > $S$ is positive definite, what about $S^{-1}$, $Q^TSQ$?
 >
@@ -48,7 +48,7 @@
 4. All leading determinants $\geq 0 $.
 5. All pivots $\geq 0 $ in elimination
 
-> #### Example 16
+> #### Example 13
 >
 > A semi-definite case $\begin{bmatrix}3&4 \\4&16/3 \end{bmatrix}$ with zero determinant, there must be at least one eigenvalue is zero. How do we know other eigenvalues are positive?
 >
@@ -60,7 +60,7 @@
 
 $S$ is positive definite if the energy $x^TSx$ is positive for all vectors $x \neq 0$.
 
-> #### Example 17
+> #### Example 14
 >
 > $$
 > E = x^TSx = \begin{bmatrix}x_1 x_2\end{bmatrix} \begin{bmatrix}2&4\\ 4&9\end{bmatrix} \begin{bmatrix}x_1 \\ x_2\end{bmatrix} = 2x_1^2 + 8x_1 x_2 + 9 x_2^2
@@ -118,7 +118,7 @@ $$
 
   So the pivots are all positive when the leading determinants are all positive.
 
-> #### Example 18
+> #### Example 15
 >
 > $\begin{bmatrix}3&4 \\ 4&6 \end{bmatrix}$ is positive-definite with positive leading determinants.
 >
@@ -134,7 +134,7 @@ $$
 
   * Since elimination is triangular factorization $S = LU$, for symmetric matrix, it can be $S = LDL^T$, where pivots are on the diagonal of $D$. After sharing those pivots $S = (L\sqrt{D})(\sqrt{D}L^T) = A^TA$ -- "**Cholesky factorization**".
 
-> #### Example 19
+> #### Example 16
 >
 > Is this matrix $S = \begin{bmatrix}1&1&1 \\1&1&1 \\ 1&1&1 \end{bmatrix}$ positive definite or semi definite or none of both?
 >
@@ -159,7 +159,7 @@ $S = Q \Lambda Q^T$ is **positive definite** when all $\lambda_i > 0$. The graph
 
 $S = Q \Lambda Q^T$ is the "**Principal axis theorem**": it displays the **axes**'s **directions** (from the **eigenvectors**) and the axis **length** (from the **eigenvalues** $\lambda$'s). Length = $1/\sqrt{\lambda}$. The bigger eigenvalue gives shorter axis. 
 
-> #### Example 20
+> #### Example 17
 >
 > $S = \begin{bmatrix}5&4 \\ 4&5 \end{bmatrix}$ has $\lambda = 9$ and $1$. Energy ellipse $5x^2 + 8xy + 5y^2 = 1$. The eigenvectors are $q_1 = (1,1)$ and $q_2 = (1,-1)$. 
 >

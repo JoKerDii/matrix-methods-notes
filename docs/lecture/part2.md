@@ -35,9 +35,9 @@ Importance of outer product:
 * $A = X\Lambda X^{-1}$
   * From **diagonalization** when $A$ is $n$ by $n$ with $n$ independent eigenvectors.
   * **Eigenvalues** of $A$ on the diagonal of $\Lambda$. **Eigenvectors** of $A$ in the columns of $X$.
-* $A = U\sum V^T$
+* $A = U\Sigma V^T$
   * From Singular Value Decomposition (SVD) of any matrix $A$.
-  * $U$: orthogonal matrix; $V$: orthogonal matrix; $\sum$: diagonal matrix with singular values $\sigma_1, ..., \sigma_r$.
+  * $U$: orthogonal matrix; $V$: orthogonal matrix; $\Sigma$: diagonal matrix with singular values $\sigma_1, ..., \sigma_r$.
 
 > #### Example 3
 >
