@@ -116,3 +116,26 @@ Note that those pieces of $A$ come in order of importance, $\sigma_1 u_1 v_1^T$ 
 ## Geometry of SVD
 
 As $U$ and $V^T$ are orthogonal, they can be rotation or possible reflection. As $\Sigma$ is diagonal, it can stretch the matrix.
+
+## The Polar Decomposition $A = QS$
+
+**Polar Decomposition**: Every real square matrix can be factored into $A = QS$.
+$$
+A = U\Sigma V^T = (UV^T)(V \Sigma V^T) = QS
+$$
+
+* $Q$ is orthogonal.
+* $S$ is symmetric positive semidefinite.
+* If $A$ is invertible then $\Sigma$ and $S$ are also invertible.
+  * $S$ is symmetric positive definite square root of $A^TA$, since $S^2 = V \Sigma^2 V^T = A^TA$. So the eigenvalues of $S$ are the singular values of $A$. The eigenvectors of $S$ are the singular vectors $v$ of $A$.
+
+The reverse order of **Polar Decomposition**: 
+$$
+A = U\Sigma V^T = (U\Sigma U^T)( UV^T) = KQ
+$$
+
+* $Q$ is the same 
+* $K$ is the symmetric positive definite square root of $AA^T$
+
+
+
