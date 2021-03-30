@@ -28,11 +28,11 @@ Compute Pseudoinverse $A^+$:
       \Sigma^+\Sigma = I;~~~\Sigma\Sigma^+ = I
       $$
       
-* In null space of $A$ and $A^T$,
+    * In null space of $A$ and $A^T$,
       $$
       \Sigma^+\Sigma = 0;~~~\Sigma\Sigma^+ = 0
       $$
-    
+  
 * For all matrices, the pseudoinverse of $A = U\Sigma V^T$ is $A^+ = V \Sigma^+ U^T$.
 
 Some properties of $A^+$: 

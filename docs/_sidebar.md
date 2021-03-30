@@ -9,4 +9,5 @@
   - [Lecture 7](lecture/part7.md)
   - [Lecture 8](lecture/part8.md)
   - [Lecture 9](lecture/part9.md)
+  - [Lecture 10](lecture/part10.md)
 - **Project Documentation**
