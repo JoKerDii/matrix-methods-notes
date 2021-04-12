@@ -10,8 +10,9 @@
   - [Lecture 8](lecture/part8.md)
   - [Lecture 9](lecture/part9.md)
   - [Lecture 10](lecture/part10.md)
-  - Lecture 11
+  - [Lecture 11](lecture/part11.md)
   - [Lecture 12](lecture/part12.md)
   - [Lecture 13](lecture/part13.md)
+  - [Lecture 14](lecture/part14.md)
 - **Project Documentation**
 
