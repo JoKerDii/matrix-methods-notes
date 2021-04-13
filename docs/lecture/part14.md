@@ -80,3 +80,23 @@ Updating $\widehat{\mathbf{x}}$ is called **recursive least squares**. The steps
 1. Solve $A\mathbf{x} = \mathbf{b}$ and $A\mathbf{z} = \mathbf{u}$. Compute $\mathbf{D} = 1- \mathbf{v}^T\mathbf{z}$
 2. Then $\mathbf{y} = \mathbf{x} + \frac{\mathbf{v}^T\mathbf{x}}{\mathbf{D}}\mathbf{z}$ is the solution to $M\mathbf{y} = (A-\mathbf{u}\mathbf{v}^T)\mathbf{y} = \mathbf{b}$.
 
+## The derivative of $A^{-1}$
+
+We are interested in the change $\Delta f(x)$ in a function $f(x)$ when $x$ is moved slightly $\Delta x$. We define $B = A + \Delta A$ and we have the fact
+$$
+B^{-1} - A^{-1} = B^{-1}(A-B)A^{-1}
+$$
+Suppose $A = A(t)$ changes with time $t$ and so as $A^{-1}$, we have
+$$
+\begin{aligned}
+\Delta A &= B - A\\
+\Delta A^{-1} &= B^{-1} - A^{-1}
+\end{aligned}
+$$
+Now let $\Delta t \rightarrow 0$ and then we find the derivative
+$$
+\begin{aligned}
+\frac{\Delta A^{-1}}{\Delta t} &= -(A + \Delta A^{-1})\frac{\Delta A}{\Delta t}A^{-1}\\
+\frac{dA^{-1}}{dt} &= -A^{-1}\frac{dA}{dt} A^{-1}
+\end{aligned}
+$$
