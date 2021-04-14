@@ -46,32 +46,3 @@ $$
 \frac{d\mathbf{\lambda}}{dt} =\mathbf{y}^T(t)\frac{dA}{dt}\mathbf{x}(t)
 $$
 
-## Derivative of Singular Value
-
-We know the facts
-
-* $U^TAV = \Sigma$
-* $A\mathbf{v} = \sigma \mathbf{u}, A^T\mathbf{u} = \sigma \mathbf{v}$
-* $\mathbf{u}^T\mathbf{u} = \mathbf{v}^T\mathbf{v} = 1$
-
-From which we have
-$$
-\mathbf{u}^T(t)A(t)\mathbf{v}(t) = \mathbf{u}^T(t)\sigma(t)\mathbf{u}(t) = \sigma(t)
-$$
-Take the derivative
-$$
-\begin{aligned}
-\frac{d\sigma}{dt} &= \frac{d\mathbf{u}^T}{dt} A(t)\mathbf{v}(t) + \mathbf{u}^T(t) \frac{dA}{dt}\mathbf{v}(t) + \mathbf{u}^T(t) A(t) \frac{d\mathbf{v}}{dt} 
-\end{aligned}
-$$
-Since
-$$
-\frac{d\mathbf{u}^T}{dt} A(t)\mathbf{v}(t) = \sigma(t)\frac{d\mathbf{u}^T}{dt}\mathbf{u}(t) = 0\\
-\mathbf{u}^T(t) A(t) \frac{d\mathbf{v}}{dt} = \sigma(t)\mathbf{v}^T(t)\frac{d\mathbf{v}}{dt} = 0
-$$
-
-
-We get the derivative of a singular value
-$$
-\frac{d\sigma}{dt} = \mathbf{u}^T(t) \frac{dA}{dt}\mathbf{v}(t)
-$$
