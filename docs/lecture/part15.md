@@ -46,3 +46,7 @@ $$
 \frac{d\mathbf{\lambda}}{dt} =\mathbf{y}^T(t)\frac{dA}{dt}\mathbf{x}(t)
 $$
 
+
+
+
+
