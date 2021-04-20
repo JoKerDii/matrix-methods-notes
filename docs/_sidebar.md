@@ -16,5 +16,6 @@
   - [Lecture 14](lecture/part14.md)
   - [Lecture 15](lecture/part15.md)
   - [Lecture 16](lecture/part16.md)
+  - [Lecture 17](lecture/part17.md)
 - **Project Documentation**
 
